@@ -13,6 +13,7 @@ DICOM:
   - Es el estándar internacional para almacenar y transmitir imágenes médicas e información relacionada. 
   - Permite la integración de escáneres, servidores, estaciones de trabajo, impresoras y hardware de red de múltiples fabricantes en un sistema de archivo y comunicación de imágenes (PACS). 
   - Admite diversos formatos de imagen, entre ellos, rayos X, ultrasonido, tomografía computarizada (TC) y resonancia magnética (RM). 
+
 HL7: 
   - Se refiere a un conjunto de estándares internacionales para la transferencia de datos clínicos y administrativos entre aplicaciones de software. 
   - Se centra en el lenguaje y la estructura de dichos datos para garantizar la interoperabilidad entre sistemas. 
@@ -30,8 +31,8 @@ Dificultades:
   - Manejar las dimensiones y formatos del atributo pixel_array y además encontrar la ruta correcta de los archivos al momento de ejecutar el código.
 
 Importancia de Python: Python ofrece herramientas poderosas para la ingeniería biomédica: 
-    - Pydicom permite leer y manipular archivos DICOM de manera simple. 
-    - Numpy facilita cálculos sobre matrices de píxeles. 
-    - Pandas permite organizar los datos extraídos en tablas fáciles de analizar.
+  - Pydicom permite leer y manipular archivos DICOM de manera simple. 
+  - Numpy facilita cálculos sobre matrices de píxeles. 
+  - Pandas permite organizar los datos extraídos en tablas fáciles de analizar.
 
 De esta manera, se facilita el análisis múltiple de imágenes y el procesamiento de los datos para convertirlos en información comprensible y fiable para los pacientes y el personal médico.
